@@ -2,7 +2,7 @@ int dp[101][1001];
 memset(dp, -1, sizeof(dp));
 int n = wt.size();
 
-int knapsack(vector<int>wt, vector<int>val, int w, int n){
+int knapsack(vector<int>&wt, vector<int>&val, int w, int n){
 
     if(n==0 || w==0){
         return 0;
