@@ -40,7 +40,7 @@ public:
             
         }
         
-        //optiize solutions can be done by using vector reverse
+        //optimize solutions can be done by using vector reverse and some other logic
         
          return result;
     }
