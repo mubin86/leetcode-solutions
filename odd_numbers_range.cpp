@@ -1,7 +1,7 @@
 class Solution {
 public:
     int countOdds(int low, int high) {
-        low=4;high=10;
+       
         int a = low;
         int b = high;
         
