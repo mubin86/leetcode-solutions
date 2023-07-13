@@ -12,7 +12,8 @@ public:
             }
         }
         
-        int l = hasPathSum(root->left, targetSum);                                         int r = hasPathSum(root->right,targetSum);
+        int l = hasPathSum(root->left, targetSum);                                         
+        int r = hasPathSum(root->right,targetSum);
         
         if(l || r){
             cout<<"true is called"<<endl;
